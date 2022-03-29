@@ -9,33 +9,34 @@ public class enchant {
   public int answer;
 
   public void askEnchantments() {
-    System.out.println("Do you wish to enchant?(0 yes/1 no)");
+    System.out.println("Do you wish to enchant?(1 yes/0 no)");
     answer = input.nextInt();
-    if (answer == 0)
+    if (answer == 1)
       doEnchant();
   }
 
   public void doEnchant() {
-    System.out.println("Select your enchantment (0 = unbreaking/1 = sharpness)");
+    System.out.println("Select your enchantment (1 = unbreaking/0 = sharpness)");
     answer = input.nextInt();
     switch (answer) {
       case 0:
-        enchantUnbreaking(ask_lvl(answer));
-        break;
-      case 1:
         enchantSharpness(ask_lvl(answer));
         break;
+      case 1:
+        enchantUnbreaking(ask_lvl(answer));
+        break;
       default:
-        System.out.println("Invalid option, try again");
+        System.out.println("Invalid option, try again!");
+        System.out.println("");
         doEnchant();
     }
   }
 
   public int ask_lvl(int a) {
     String option = "";
-    if (a == 0)
-      option += "(1 - 3)";
     if (a == 1)
+      option += "(1 - 3)";
+    if (a == 0)
       option += "(1 - 5)";
     System.out.println("Choose a level " + option);
     a = input.nextInt();
