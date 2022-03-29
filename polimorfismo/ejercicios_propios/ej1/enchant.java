@@ -53,6 +53,11 @@ public class enchant {
     enchantment = "sharpness";
     enchantment_lvl = lvl;
     System.out.println("Enchantment: " + enchantment);
-    System.out.println("Enchantment Level: " + enchantment_lvl);
+    System.out.println("Enchantment Level: " + enchantment_lvl + " (plus " + (2 * enchantment_lvl) + " damage)");
+    setSharpness(enchantment_lvl);
+  }
+
+  public void setSharpness(int enchantment_lvl) {
+    Tools.damage += (2 * enchantment_lvl);
   }
 }

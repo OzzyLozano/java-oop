@@ -5,7 +5,7 @@ public class Pickaxe extends Tools {
   public String material = "diamond";
 
   public void setPickaxe() {
-    tool.setTool(material);
+    tool.setTool("pickaxe");
     switchCase(material);
   }
 
@@ -43,7 +43,7 @@ public class Pickaxe extends Tools {
   public void getPickaxe() {
     System.out.println("\nPickaxe");
     askEnchantments();
-    System.out.println("Damage: " + tool.damage);
+    System.out.println("Damage: " + Tools.damage);
     System.out.println("Durability: " + tool.durability);
     System.out.println("Material: " + tool.tool);
   }
