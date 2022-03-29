@@ -5,5 +5,9 @@ public class MainClass {
     Pickaxe pickaxe = new Pickaxe();
     pickaxe.setPickaxe();
     pickaxe.getPickaxe();
+
+    Axe axe = new Axe();
+    axe.setAxe();
+    axe.getAxe();
   }
 }

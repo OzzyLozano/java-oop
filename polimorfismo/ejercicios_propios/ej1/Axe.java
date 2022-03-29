@@ -1,10 +1,10 @@
 package ejercicios_propios.ej1;
 
-public class Pickaxe extends Tools {
+public class Axe extends Tools {
   Tools tool = new Tools();
-  public String material = "diamond";
+  public String material = "netherite";
 
-  public void setPickaxe() {
+  public void setAxe() {
     tool.setTool(material);
     switchCase(material);
   }
@@ -12,27 +12,27 @@ public class Pickaxe extends Tools {
   public void switchCase(String a) {
     switch (a) {
       case "wooden":
-        tool.setDamage(3);
+        tool.setDamage(6.5);
         tool.setDurability(75);
         break;
       case "stone":
-        tool.setDamage(3.5);
+        tool.setDamage(7);
         tool.setDurability(165);
         break;
       case "iron":
-        tool.setDamage(4);
+        tool.setDamage(7.5);
         tool.setDurability(275);
         break;
       case "gold":
-        tool.setDamage(4.5);
+        tool.setDamage(8);
         tool.setDurability(67);
         break;
       case "diamond":
-        tool.setDamage(5);
+        tool.setDamage(9);
         tool.setDurability(1465);
         break;
       case "netherite":
-        tool.setDamage(6);
+        tool.setDamage(10);
         tool.setDurability(1985);
         break;
       default:
@@ -40,8 +40,8 @@ public class Pickaxe extends Tools {
     }
   }
 
-  public void getPickaxe() {
-    System.out.println("Pickaxe");
+  public void getAxe() {
+    System.out.println("Axe");
     System.out.println("Damage: " + tool.damage);
     System.out.println("Durability: " + tool.durability);
     System.out.println("Material: " + tool.tool);
