@@ -4,6 +4,7 @@ public class Tools {
   public double damage;
   public int durability;
   public String tool;
+  public int mine;
 
   public void setDamage(double d) {
     damage = d;
@@ -15,5 +16,9 @@ public class Tools {
 
   public void setDurability(int d) {
     durability = d;
+  }
+
+  public void setMineSpeed(int ms) {
+    mine = ms;
   }
 }
