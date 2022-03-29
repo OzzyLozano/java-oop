@@ -41,7 +41,7 @@ public class Axe extends Tools {
   }
 
   public void getAxe() {
-    System.out.println("Axe");
+    System.out.println("\nAxe");
     System.out.println("Damage: " + tool.damage);
     System.out.println("Durability: " + tool.durability);
     System.out.println("Material: " + tool.tool);

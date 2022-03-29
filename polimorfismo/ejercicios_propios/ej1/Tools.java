@@ -1,6 +1,6 @@
 package ejercicios_propios.ej1;
 
-public class Tools {
+public class Tools extends enchant {
   public double damage;
   public int durability;
   public String tool;

@@ -41,7 +41,8 @@ public class Pickaxe extends Tools {
   }
 
   public void getPickaxe() {
-    System.out.println("Pickaxe");
+    System.out.println("\nPickaxe");
+    askEnchantments();
     System.out.println("Damage: " + tool.damage);
     System.out.println("Durability: " + tool.durability);
     System.out.println("Material: " + tool.tool);
