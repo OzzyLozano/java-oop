@@ -6,15 +6,15 @@ public class Axe extends Tools {
   public String material = "netherite";
 
   public void setAxe() {
-    tool.setTool("axe");
-    switchCase.useSwitch(material, 6);
+    tool.setTool("netherite");
+    switchCase.useSwitch(tool.tool, 6);
   }
 
   public void getAxe() {
     System.out.println("\nAxe");
     askEnchantments();
     System.out.println("Damage: " + Tools.damage);
-    System.out.println("Durability: " + tool.durability);
+    System.out.println("Durability: " + Tools.durability);
     System.out.println("Material: " + tool.tool);
   }
 }

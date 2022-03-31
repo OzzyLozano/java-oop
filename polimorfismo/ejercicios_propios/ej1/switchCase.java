@@ -10,11 +10,11 @@ public class switchCase extends Tools {
         tool.setDurability(75);
         break;
       case "stone":
-        tool.setDamage(b + .5);
+        tool.setDamage(b + 1);
         tool.setDurability(165);
         break;
       case "iron":
-        tool.setDamage(b + .5);
+        tool.setDamage(b + 2);
         tool.setDurability(275);
         break;
       case "gold":
@@ -22,11 +22,11 @@ public class switchCase extends Tools {
         tool.setDurability(67);
         break;
       case "diamond":
-        tool.setDamage(b + 2);
+        tool.setDamage(b + 3);
         tool.setDurability(1465);
         break;
       case "netherite":
-        tool.setDamage(b + 3);
+        tool.setDamage(b + 4);
         tool.setDurability(2106);
         break;
       default:
