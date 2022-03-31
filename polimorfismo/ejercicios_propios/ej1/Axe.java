@@ -5,7 +5,7 @@ public class Axe extends Tools {
   public String material = "netherite";
 
   public void setAxe() {
-    tool.setTool(material);
+    tool.setTool("axe");
     switchCase(material);
   }
 
