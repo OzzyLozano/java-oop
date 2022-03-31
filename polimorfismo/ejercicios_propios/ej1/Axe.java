@@ -3,7 +3,6 @@ package ejercicios_propios.ej1;
 public class Axe extends Tools {
   Tools tool = new Tools();
   switchCase switchCase = new switchCase();
-  public String material = "netherite";
 
   public void setAxe() {
     tool.setTool("netherite");
