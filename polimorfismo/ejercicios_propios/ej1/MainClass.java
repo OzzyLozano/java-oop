@@ -5,9 +5,11 @@ public class MainClass {
     Pickaxe pickaxe = new Pickaxe();
     pickaxe.setPickaxe();
     pickaxe.getPickaxe();
+    pickaxe.mineBlock();
 
     Axe axe = new Axe();
     axe.setAxe();
     axe.getAxe();
+    axe.mineBlock();
   }
 }

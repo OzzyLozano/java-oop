@@ -2,7 +2,7 @@ package ejercicios_propios.ej1;
 
 import java.util.Scanner;
 
-public class enchant {
+public class enchant extends Mining {
   public Scanner input = new Scanner(System.in);
   public String enchantment;
   public int enchantment_lvl;
@@ -60,5 +60,9 @@ public class enchant {
 
   public void setSharpness(int enchantment_lvl) {
     Tools.damage += (2 * enchantment_lvl);
+  }
+
+  @Override
+  public void mineBlock() {
   }
 }

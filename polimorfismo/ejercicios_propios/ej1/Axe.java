@@ -16,4 +16,9 @@ public class Axe extends Tools {
     System.out.println("Durability: " + Tools.durability);
     System.out.println("Material: " + tool.tool);
   }
+
+  @Override
+  public void mineBlock() {
+    System.out.println("Wood Block Mined!");
+  }
 }
