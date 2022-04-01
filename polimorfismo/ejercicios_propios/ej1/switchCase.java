@@ -30,6 +30,7 @@ public class switchCase extends Tools {
         tool.setDurability(2106);
         break;
       default:
+        System.out.println("Material doesn't match");
         break;
     }
   }
