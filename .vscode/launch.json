@@ -8,6 +8,13 @@
       "type": "java",
       "name": "Launch MainClass",
       "request": "launch",
+      "mainClass": "folder.MainClass",
+      "projectName": "java_3437a4d6"
+    },
+    {
+      "type": "java",
+      "name": "Launch MainClass",
+      "request": "launch",
       "mainClass": "ejercicios_propios.ej2.MainClass",
       "projectName": "java_3437a4d6"
     },

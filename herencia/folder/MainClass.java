@@ -1,3 +1,5 @@
+package folder;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 

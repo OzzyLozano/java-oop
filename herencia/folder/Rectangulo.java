@@ -1,3 +1,5 @@
+package folder;
+
 public class Rectangulo extends Poligonos {
   private double lado1;
   private double lado2;

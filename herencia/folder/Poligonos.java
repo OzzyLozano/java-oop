@@ -1,3 +1,5 @@
+package folder;
+
 public abstract class Poligonos {
   private int num_lados;
 
