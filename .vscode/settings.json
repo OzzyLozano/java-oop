@@ -1,6 +1,7 @@
 {
   "java.project.sourcePaths": [
     "polimorfismo",
-    "herencia"
+    "herencia",
+    "mi_java"
   ]
 }
