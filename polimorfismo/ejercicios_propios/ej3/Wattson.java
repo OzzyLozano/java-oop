@@ -4,7 +4,7 @@ public class Wattson extends Character {
 
   @Override
   public String useAbility() {
-    return "Placing Sparky sticks";
+    return "Placing electric fence";
   }
 
 }

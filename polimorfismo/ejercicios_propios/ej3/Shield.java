@@ -1,12 +1,20 @@
 package ejercicios_propios.ej3;
 
 public class Shield extends abstractClass {
-  int lvl;
+  int shield_lvl;
   int shield;
   int upgrade_points;
 
+  public int getShieldLvl() {
+    return upgrade_points;
+  }
+
+  public void setShieldLvl(int s) {
+    shield = s;
+  }
+
   public void shield() {
-    switch (lvl) {
+    switch (shield_lvl) {
       case 1:
         shield = 50;
         upgrade_points += 150;
@@ -29,8 +37,8 @@ public class Shield extends abstractClass {
     }
   }
 
-  public int updateUpgradePts(int damage) {
-    upgrade_points = upgrade_points - damage;
+  public int updateUpgradePts(int damage_done) {
+    upgrade_points = upgrade_points - damage_done;
     if (upgrade_points <= 0) {
       upgradeShield();
     }
@@ -38,7 +46,7 @@ public class Shield extends abstractClass {
   }
 
   public void upgradeShield() {
-    shield += 1;
+    shield_lvl += 1;
     shield();
   }
 

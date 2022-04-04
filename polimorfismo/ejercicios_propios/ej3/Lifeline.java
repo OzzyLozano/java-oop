@@ -4,7 +4,7 @@ public class Lifeline extends Character {
 
   @Override
   public String useAbility() {
-    return "Deploying Health Drone";
+    return "Deploying health drone";
   }
 
 }

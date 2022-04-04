@@ -4,7 +4,7 @@ public class Wraith extends Character {
 
   @Override
   public String useAbility() {
-    return "Void Jumping";
+    return "Void jumping";
   }
 
 }
