@@ -8,6 +8,13 @@
       "type": "java",
       "name": "Launch MainClass",
       "request": "launch",
+      "mainClass": "ejercicio_grupal.MainClass",
+      "projectName": "java_3437a4d6"
+    },
+    {
+      "type": "java",
+      "name": "Launch MainClass",
+      "request": "launch",
       "mainClass": "ejercicios_propios.ej3.MainClass",
       "projectName": "java_3437a4d6"
     },
