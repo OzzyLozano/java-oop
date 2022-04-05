@@ -101,6 +101,7 @@ public class MainClass {
         editar();
         break;
       case "no":
+        System.out.println("Oki, bye bye");
         break;
 
       default:
