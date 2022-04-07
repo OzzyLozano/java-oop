@@ -4,5 +4,20 @@
     "herencia",
     "folder",
     "mi_java"
+  ],
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "default"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "database",
+      "username": "ozzy",
+      "database": "airbnb",
+      "password": "0102"
+    }
   ]
 }

@@ -1,0 +1,9 @@
+{
+  "estudiantes": [{
+    "nombre": "ozzy",
+    "apellido": "lozano",
+    "id": 0,
+    "edo-civil": "triste",
+    "curso": "curso"
+  }]
+}
