@@ -15,6 +15,16 @@ public class PersonalServicio extends Empleado {
     this.seccion = seccion;
   }
 
+  public void setDatos() {
+    setNombre("Fernando");
+    setApellidos("Alcocer");
+    setID(12543);
+    setEdoCivil("Casado");
+    setSeccion("Secretario");
+    setFechaIncorporacion(1997);
+    setDespacho("Personal de servicio");
+  }
+
   public void mostrarDatos() {
     System.out.println("\nPersonal de Servicio.");
     System.out.println("Nombre: " + getNombre());

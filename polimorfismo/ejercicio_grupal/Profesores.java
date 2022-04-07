@@ -15,6 +15,16 @@ public class Profesores extends Empleado {
     this.departamento = departamento;
   }
 
+  public void setDatos() {
+    setNombre("Panchito");
+    setApellidos("Villa");
+    setID(12354);
+    setEdoCivil("Viudo");
+    setDepartamento("Matematicas");
+    setFechaIncorporacion(1895);
+    setDespacho("Profesor");
+  }
+
   public void mostrarDatos() {
     System.out.println("\nProfesor.");
     System.out.println("Nombre: " + getNombre());

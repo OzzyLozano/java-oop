@@ -1,6 +1,7 @@
 package ejercicio_grupal;
 
 import java.util.Scanner;
+import java.util.ArrayList;
 
 public class MainClass {
   public static String respuesta;
@@ -11,32 +12,13 @@ public class MainClass {
 
   public static void main(String[] args) {
 
-    estudiante.setNombre("Juanito");
-    estudiante.setApellidos("Perez");
-    estudiante.setID(12345);
-    estudiante.setEdoCivil("Soltero");
-    estudiante.setCurso("Programacion");
-
+    estudiante.setDatos();
     estudiante.mostrarDatos();
 
-    profesor.setNombre("Panchito");
-    profesor.setApellidos("Villa");
-    profesor.setID(12354);
-    profesor.setEdoCivil("Viudo");
-    profesor.setDepartamento("Matematicas");
-    profesor.setFechaIncorporacion(1895);
-    profesor.setDespacho("Profesor");
-
+    profesor.setDatos();
     profesor.mostrarDatos();
 
-    personal_servicio.setNombre("Fernando");
-    personal_servicio.setApellidos("Alcocer");
-    personal_servicio.setID(12543);
-    personal_servicio.setEdoCivil("Casado");
-    personal_servicio.setSeccion("Secretario");
-    personal_servicio.setFechaIncorporacion(1997);
-    personal_servicio.setDespacho("Personal de servicio");
-
+    personal_servicio.setDatos();
     personal_servicio.mostrarDatos();
 
     System.out.println("Desea hacer cambios? [si/no]");

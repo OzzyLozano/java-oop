@@ -15,6 +15,14 @@ public class Estudiantes extends Persona {
     this.curso = curso;
   }
 
+  public void setDatos() {
+    setNombre("Juanito");
+    setApellidos("Perez");
+    setID(12345);
+    setEdoCivil("Soltero");
+    setCurso("Programacion");
+  }
+
   public void mostrarDatos() {
     System.out.println("\nEstudiante.");
     System.out.println("Nombre: " + getNombre());
