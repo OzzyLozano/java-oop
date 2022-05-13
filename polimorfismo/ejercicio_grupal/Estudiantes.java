@@ -1,11 +1,13 @@
 package ejercicio_grupal;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Estudiantes extends Persona {
   String curso;
   String respuesta;
   Scanner r = new Scanner(System.in);
+  ArrayList<String> estudiante = new ArrayList<>();
 
   public String getCurso() {
     return curso;
@@ -71,6 +73,38 @@ public class Estudiantes extends Persona {
         respuesta = r.nextLine();
         switchEditarDato(respuesta);
         break;
+    }
+  }
+
+  public void darAlta() {
+    System.out.println("Estuiante, anadiendo al sistema.\n");
+    System.out.println("Ingresar nombre.");
+    estudiante.add("Nombre: " + r.nextLine());
+    System.out.println("Ingresar apellido.");
+    estudiante.add("Apellido: " + r.nextLine());
+    System.out.println("Ingresar ID.");
+    estudiante.add("ID: " + r.nextLine());
+    System.out.println("Ingresar estado civil.");
+    estudiante.add("Estado Civil: " + r.nextLine());
+    System.out.println("Ingresar curso.");
+    estudiante.add("Curso: " + r.nextLine());
+    System.out.println("");
+
+    mostrarAlta();
+  }
+
+  public void mostrarAlta() {
+    System.out.println("\nEstudiante");
+    for (var i : estudiante) {
+      System.out.println(i);
+    }
+    System.out.println("");
+  }
+
+  public void darBaja() {
+    System.out.println("Ingrese el ID del estudiante a dar de baja: ");
+    if (estudiante.get(2) == r.nextLine()) {
+      estudiante.clear();
     }
   }
 

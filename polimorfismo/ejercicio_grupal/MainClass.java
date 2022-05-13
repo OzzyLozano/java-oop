@@ -12,6 +12,13 @@ public class MainClass {
 
   public static void main(String[] args) {
 
+    ArrayList<String> arreglo = new ArrayList<>();
+    arreglo.add("nombre");
+    arreglo.add("apellido");
+    for (var i : arreglo) {
+      System.out.println(i);
+    }
+
     estudiante.setDatos();
     estudiante.mostrarDatos();
 
@@ -21,9 +28,14 @@ public class MainClass {
     personal_servicio.setDatos();
     personal_servicio.mostrarDatos();
 
+    estudiante.darAlta();
+    estudiante.darBaja();
+
     System.out.println("Desea hacer cambios? [si/no]");
     respuesta = keyboard.next();
     switchCambiar(respuesta);
+
+    estudiante.mostrarAlta();
   }
 
   public static void switchCambiar(String respuesta) {

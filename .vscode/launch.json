@@ -6,6 +6,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch file",
+      "request": "launch",
+      "mainClass": "file",
+      "projectName": "java_5e213a0e"
+    },
+    {
+      "type": "java",
+      "name": "Launch unidimensional",
+      "request": "launch",
+      "mainClass": "unidimensional",
+      "projectName": "java_3437a4d6"
+    },
+    {
+      "type": "java",
+      "name": "Launch throows",
+      "request": "launch",
+      "mainClass": "throows",
+      "projectName": "java_3437a4d6"
+    },
+    {
+      "type": "java",
+      "name": "Launch file",
+      "request": "launch",
+      "mainClass": "file",
+      "projectName": "java_3437a4d6"
+    },
+    {
+      "type": "java",
+      "name": "Launch Trhows",
+      "request": "launch",
+      "mainClass": "Trhows",
+      "projectName": "java_3437a4d6"
+    },
+    {
+      "type": "java",
       "name": "Launch MainClass",
       "request": "launch",
       "mainClass": "ejercicio_grupal.MainClass",
