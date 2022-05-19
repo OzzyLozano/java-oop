@@ -13,6 +13,6 @@ public class MainClass {
     lifeline.setShieldLvl(1);
     System.out.println("Lifeline\n\thealth: " + lifeline.health +
         "\n\tshield lvl: " + lifeline.shield +
-        "\n\tshield points: " + lifeline.upgrade_points);
+        "\n\tshield points: " + lifeline.getShieldLvl());
   }
 }

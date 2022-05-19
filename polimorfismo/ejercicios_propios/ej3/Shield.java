@@ -17,15 +17,15 @@ public class Shield extends abstractClass {
     switch (shield_lvl) {
       case 1:
         shield = 50;
-        upgrade_points += 150;
+        upgrade_points = 150;
         break;
       case 2:
         shield = 100;
-        upgrade_points += 300;
+        upgrade_points = 300;
         break;
       case 3:
         shield = 150;
-        upgrade_points += 750;
+        upgrade_points = 750;
         break;
       case 4:
         shield = 200;

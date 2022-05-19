@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch MainClass",
+      "request": "launch",
+      "mainClass": "ejercicios_propios.ej3.MainClass",
+      "projectName": "java_5e213a0e"
+    },
+    {
+      "type": "java",
       "name": "Launch file",
       "request": "launch",
       "mainClass": "file",

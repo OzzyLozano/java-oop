@@ -2,11 +2,7 @@ import java.util.Scanner;
 import java.util.Random;
 import java.io.*;
 
-// C:\\Users\\ozzyl\\java\\numbers.txt
-
 public class file {
-  public static String ruta;
-
   public static void main(String[] args) throws IOException {
     int maxNum, num;
     Scanner keyboard = new Scanner(System.in);
