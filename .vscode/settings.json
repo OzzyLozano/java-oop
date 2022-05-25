@@ -1,9 +1,9 @@
 {
   "java.project.sourcePaths": [
     "polimorfismo",
+    "mi_java",
     "herencia",
-    "folder",
-    "mi_java"
+    "proyecto_final"
   ],
   "sqltools.connections": [
     {

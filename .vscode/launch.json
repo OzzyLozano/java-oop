@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Raya",
+      "request": "launch",
+      "mainClass": "Raya",
+      "projectName": "java_5e213a0e"
+    },
+    {
+      "type": "java",
+      "name": "Launch MainClass",
+      "request": "launch",
+      "mainClass": "MainClass",
+      "projectName": "java_5e213a0e"
+    },
+    {
+      "type": "java",
       "name": "Launch MainClass",
       "request": "launch",
       "mainClass": "ejercicios_propios.ej3.MainClass",
